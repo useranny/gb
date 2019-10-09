@@ -1,0 +1,46 @@
+#textArea {
+     -fx-background-image: url("More.jpg");
+     -fx-font-alignment: center;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+#butOK{
+     -fx-background-radius: 30;
+     -fx-border-radius: 30;
+     -fx-background-color :  #B0E0E6;
+
+}
+#find{
+     -fx-background-radius: 0;
+     -fx-border-radius: 0;
+     -fx-background-color :  #4682B4;
+
+}
+
+
+#preferences{
+     -fx-background-radius: 0;
+     -fx-border-radius: 0;
+     -fx-background-color :  #4682B4;
+
+}
+
+ #hb{
+
+     -fx-background-color : #4682B4;
+     -fx-padding:3;
+ }
+
