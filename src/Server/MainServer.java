@@ -53,10 +53,9 @@ public class MainServer{
         for (ClientHandler o: clients) {
             if(o.getClient().equals(who)){
             o.sendMsg(what);
-            break;
+            return;
             }
         }
-
     }
     public String watching(String name) {
         for (ClientHandler o: clients) {

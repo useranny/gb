@@ -42,17 +42,10 @@ public class ClientHandler {
                                    sendMsg("неверные логин/пароль");
                                }
                            }
-                       }
-
-                       while (true){
-                           String str = in.readUTF();
                            if (str.startsWith("/w")){
-                               sendMsg("/private");
-//                               String[] tokens1 = str.split(" ", 3);
-//                               server.privateMsg(tokens1[1],tokens1[2]);
-                               break;
+                               String[] tokens = str.split(" ", 3);
+                               server.privateMsg(tokens[1],tokens[2]);
                            }
-
                        }
 
                        while(true){

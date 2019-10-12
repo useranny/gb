@@ -82,16 +82,6 @@ public class Controller{
                             }
                         }
 
-//                        while (true){
-//                            String str = in.readUTF();
-//                            if(str.startsWith("/private")){
-//                                textArea.appendText("успех" + "\n");
-//break;
-//                            }else {
-//                                textArea.appendText(str + "\n");
-//                            }
-//                        }
-
                         while (true) {
                             String str = in.readUTF();
                             if(str.equalsIgnoreCase("/clientClose")){
